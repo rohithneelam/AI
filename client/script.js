@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://bhargavi-group-ai.onrender.com', {
+    const response = await fetch('https://rohith-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
